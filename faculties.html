@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Blogpost and Feedback</title>
+        <link rel="icon" href="images/Ramdeobaba-Logo.png" type="image/png">
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    </head>
+    <body>
+        <section class="sub-header sub-header-image-3">
+            <nav>
+                <a href="index.html"><img src="images/logo.png"></a>
+                <div class="nav-links" id="navLinks">
+                    <i class="fa fa-times" onclick="hideMenu()"></i>
+                    <ul>
+                        <li><a href="index.html">HOME</a></li>
+                        <li><a href="about.html">ABOUT</a></li>
+                        <li><a href="course.html">COURSES</a></li>
+                        <li><a href="FACULTIES.html">FACULTIES</a></li>
+                        <li><a href="contact.html">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showMenu()"></i>
+            </nav>
+            <h1>People of Arya <br></h1>
+        </section>
+
+<!-- ------- Blog -------  -->
+<section class="facultiese">
+    <ul>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/poojaMam.jpg'>
+                    <figcaption>Arvind and Pooja Agarwal</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/Director.jpg'>
+                    <figcaption>Surendra Sharma</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/Principal.jpg'>
+                    <figcaption>Tanuj Maglani</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/SanjaySir.jpg'>
+                    <figcaption>Sanajy Tiwari</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/RenuM.jpeg'>
+                    <figcaption>Renu Sharma</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/mishraSir.jpg'>
+                    <figcaption>Pragyendu Mishra</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/RitikaDubeyMam.jpg'>
+                    <figcaption>Ritika Dubey</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/ShaurabhS.jpeg'>
+                    <figcaption>Shaurabh Sir</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/RaviC.jpeg'>
+                    <figcaption>Ravi Chaudhary</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/MEFA.jpeg'>
+                    <figcaption>Karan Sharma</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/ArpitaS.jpeg'>
+                    <figcaption>Arpita Sharma</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/DCCN.jpeg'>
+                    <figcaption>Aruna Verma</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/DBMS.jpeg'>
+                    <figcaption>Neha Sharma</figcaption>
+                </figure>
+            </a>
+        </li>
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/RichaR.jpeg'>
+                    <figcaption>Richa mam</figcaption>
+                </figure>
+            </a>
+        </li>
+
+        <li>
+            <a href="">
+                <figure>
+                    <img src='images/LinuxSir.jpeg'>
+                    <figcaption>Devendra Yadav</figcaption>
+                </figure>
+            </a>
+        </li>
+    </ul>
+  </section>
+  
+<!-- ------- Footer -------  -->
+
+<!-- ------- Footer -------  -->
+
+<section class="footer">
+    <h4>About us</h4>
+    <p>
+        Arya College of Engineering & I.T. was founded in the year 2000, under the patronage of the All India Arya Samaj Society <br> of Higher and Technology Education, with the late Er. T.K. Agarwal Ji as its esteemed Founder and Chairman. <br> Over the years, Arya College has established itself as a prominent private engineering college in Rajasthan, <br> known for its commitment to innovation, excellence, and academic prowess.
+
+
+
+
+    </p>
+
+    <p>
+        Made by Hackathon Heisters. <br> Shekhar Chaurasiya, Abhishekh Verma, Sagar Singh, Dheeraj Sain.
+        <br>
+    </p>
+</section>
+
+<!-- -------------JavaScript for toggle menu------------ -->
+        <script>
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right = "0";
+            }
+            function hideMenu(){
+                navLinks.style.right = "-200px";
+            }
+        </script>
+
+    </body>
+</html>
